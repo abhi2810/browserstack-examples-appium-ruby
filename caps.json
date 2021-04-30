@@ -1,0 +1,23 @@
+{
+	"tests": [
+		{
+			"test_type": "appium",
+			"common_caps": {
+				"project": "BrowserStack",
+				"build": "Appium Demo",
+				"name": "Appium Test",
+				"app": "DemoApp"
+			},
+			"session_caps": [
+				{
+					"device": "Google Pixel 4",
+					"os_version": "10.0"
+				},
+				{
+					"device": "Samsung Galaxy S20 Plus",
+					"os_version": "10.0"
+				}
+			]
+		}
+	]
+}
